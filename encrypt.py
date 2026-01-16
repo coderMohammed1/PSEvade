@@ -5,7 +5,7 @@ from random import randbytes
 import argparse
 
 def encrypt(input_file,output_file): 
-    # AES-256 key (32 bytes) and IV (16 bytes) – base64
+    # AES-256 key (32 bytes) and IV (16 bytes)
     key = randbytes(32)
     iv  = randbytes(16)
     with open(input_file, "rb") as f:
