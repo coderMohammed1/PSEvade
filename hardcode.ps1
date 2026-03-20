@@ -1,5 +1,7 @@
 # the decryption script is a bit broken. use this until we fix );
-
+# run like the following:
+# 1- bypass amsi
+# 2- IEX(./harcode.ps1)
 $KeyB64 = "Yr+aGc27klomol8XJy/3e7O5ejOE2R73o+XTBQU4KF8="
 $IVB64  = "tB+3pqy7+ksJGFkJrawRmA=="
 
